@@ -7,15 +7,15 @@ var festa = ["Fabio", "Marco", "Luca", "Giovanni", "Simone"];
 var nome = prompt("Dammi il tuo nome");
 
 
-var soldatino = false;
+var controller = false;
 
 for (var i = 0; i < festa.length; i++) {
   if (festa[i] === nome) {
-  soldatino = true;
+  controller = true;
   }
 }
 
-if (soldatino) {
+if (controller) {
   console.log("Prego, puoi entrare");
 } else {
   console.log("Mi dispiace ma non sei tra gli invitati alla festa");
